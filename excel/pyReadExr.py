@@ -1,4 +1,4 @@
-import xlrd
+﻿import xlrd
 
 data = xlrd.open_workbook('123.xls')
 

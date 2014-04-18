@@ -9,6 +9,7 @@ user = db.user
 user.drop()
 user.save({'id':1,'name':'pymongo'})
 user.save({'id':2,'name':'python'})
+user.save({'id':3,'name':'ttttttt'})
 
 datas = user.find()
 for data in datas:
